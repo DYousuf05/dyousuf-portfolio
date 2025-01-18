@@ -9,7 +9,7 @@ import Row from 'react-bootstrap/Row';
 
 export default function Title() {
     const pdf = () => {
-        window.open(process.env.BASE_URL + 'resume.pdf', '_blank')
+        window.open('https://dyousuf05.github.io/dyousuf-portfolio/resume.pdf', '_blank')
     }
 
     return (
