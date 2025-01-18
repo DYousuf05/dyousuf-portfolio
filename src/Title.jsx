@@ -9,8 +9,9 @@ import Row from 'react-bootstrap/Row';
 
 export default function Title() {
     const pdf = () => {
-        window.open('https://dyousuf05.github.io/dyousuf-portfolio/resume.pdf', '_blank')
-    }
+        const baseUrl = import.meta.env.VITE_BASE_URL;
+        window.open(baseUrl + 'resume.pdf', '_blank');
+    };    
 
     return (
         <div className='container2'>
