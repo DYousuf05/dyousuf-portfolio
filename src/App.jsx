@@ -5,8 +5,6 @@ import Title from './Title'
 import Bio from './Bio'
 import Experiences from './Experiences'
 import Projects from './Projects'
-import Contact from './Contact'
-import NavbarFile from './NavbarFile'
 import Container from 'react-bootstrap/Container';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
